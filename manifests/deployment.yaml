@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: cicd-app
-        image: dockerdivya9/cicd-pipeline:replaceImageTag
+        image: dockerdivya9/cicd-pipeline:1
         ports:
         - containerPort: 8080
